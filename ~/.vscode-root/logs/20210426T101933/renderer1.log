@@ -1,0 +1,6 @@
+[2021-04-26 10:32:33.617] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/dedsec/Desktop/Work/simpleProject/photos/8.jpeg'
+[2021-04-26 10:32:33.617] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/dedsec/Desktop/Work/simpleProject/photos/8.jpeg'
+[2021-04-26 10:32:34.635] [renderer1] [error] Unable to resolve non-existing file '/home/dedsec/Desktop/Work/simpleProject/photos/8.jpeg': EntryNotFound (FileSystemError): Unable to resolve non-existing file '/home/dedsec/Desktop/Work/simpleProject/photos/8.jpeg'
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:730:838)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
