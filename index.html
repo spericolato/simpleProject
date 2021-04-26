@@ -39,6 +39,7 @@
                 margin: 100px 5px;
             }
         </style>
+    <audio id="song"><source src="music/blue.mp3"></audio>
     </head>
     <body>
         <div class="hcontainer">
@@ -58,5 +59,9 @@
             <img class= "img" src="photos/12.jpg" alt="img">
             <img class= "img" src="photos/13.jpg" alt="img">
         </div>
+        <script>
+            var song = document.getElementById("song")
+            window.onload = function(){song.play();}
+        </script>
     </body>
 </html>
